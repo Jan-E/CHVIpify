@@ -7,296 +7,246 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08C209E96A37CC9429B85E01 /* CHVIPRetriever.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7DCC74A3718657A3296FDC /* CHVIPRetriever.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BDA3FE0FF1B27D644C57FEA /* CHVIpify.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 67B0FD505240D68D50108504 /* CHVIpify.bundle */; };
-		3086B1E5CA990DBE7A8BC6FE /* Pods-CHVIpify_Example-CHVIpify-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A0E09C567EBF690EB3F38C /* Pods-CHVIpify_Example-CHVIpify-dummy.m */; };
-		38346F3D47AC9253A4BE0B20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9554684F51E5AE347A9AFD /* Foundation.framework */; };
-		44229041956D93A255F2695B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9554684F51E5AE347A9AFD /* Foundation.framework */; };
-		4C9D40159CCE88B59C873B46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9554684F51E5AE347A9AFD /* Foundation.framework */; };
-		6751C3954863ECB9F4A05EA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9554684F51E5AE347A9AFD /* Foundation.framework */; };
-		706E7AD731884BF0B8198D81 /* Pods-CHVIpify_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0828A3791048B1D88747CDDC /* Pods-CHVIpify_Tests-dummy.m */; };
-		95C1222B2F38E4D444CEB92E /* CHVIpify.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 195504D2B12B49136812A5F7 /* CHVIpify.bundle */; };
-		9D3824FCFBBA7ABE79414744 /* Pods-CHVIpify_Example-CHVIpify-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F942B0A8CD796188F466B227 /* Pods-CHVIpify_Example-CHVIpify-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A34C6E4BA859A6926D69E08B /* Pods-CHVIpify_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CF93F71CBE170D9B94637D /* Pods-CHVIpify_Example-dummy.m */; };
-		A62407DE29C3587205675B66 /* Pods-CHVIpify_Tests-CHVIpify-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1676A4AFCD18077EB4A3F23E /* Pods-CHVIpify_Tests-CHVIpify-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9748C1D50CE07E12647A20A /* CHVIPRetriever.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7DCC74A3718657A3296FDC /* CHVIPRetriever.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA8EBB53613997DA4B9E3DF4 /* Pods-CHVIpify_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74594A6A001E6EFF0F983BE8 /* Pods-CHVIpify_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CEFE60398F09B3533D60C12E /* Pods-CHVIpify_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF3B6F7385DAAFFB768541E /* Pods-CHVIpify_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1742622FE74DA70681B7A7B /* CHVIPRetriever.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FC034FEE9C070C2A5C84A8 /* CHVIPRetriever.m */; };
-		FABF526082DA4D3C79473E97 /* Pods-CHVIpify_Tests-CHVIpify-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3010FD310A05EB922527EA9A /* Pods-CHVIpify_Tests-CHVIpify-dummy.m */; };
-		FDF2152E2B28003537ED3246 /* CHVIPRetriever.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FC034FEE9C070C2A5C84A8 /* CHVIPRetriever.m */; };
+		06CC69C9B2DBFE4E4A311E75957A5AA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0BA930B2B0F23B6E791036BF41938CFB /* Pods-CHVIpify_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01035A4B2951AA7D62FAC00C22936AD4 /* Pods-CHVIpify_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31DED8C17A9F56BDFDEFA345C2AF5AFD /* CHVIpify-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B18568A847ECED00269738CFABE717 /* CHVIpify-dummy.m */; };
+		36990ECF6ED00122F7A40D7764045CF2 /* CHVIPRetriever.h in Headers */ = {isa = PBXBuildFile; fileRef = DE35F90849E83955128FE8A3E49DCCEF /* CHVIPRetriever.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		401C165955D3DF21BBEE56088687FB00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4AAF1A06EF3E8053E29FA2530B68ECD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4DBE572DBD04EF8F945690545D2634A8 /* Pods-CHVIpify_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A04C278395508BC1275676BC86B6393 /* Pods-CHVIpify_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E703CC0442F289BF68E72B448F03279 /* Pods-CHVIpify_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F0FC4A2D4D9877011B731443E9045 /* Pods-CHVIpify_Tests-dummy.m */; };
+		8898B34B182DD0556AAFED17F9872017 /* CHVIpify-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C41430610DA4CB460449B1BD1058279 /* CHVIpify-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2D645720C4FC183CD1B3EF2289D217C /* CHVIpify.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 94C1DF3E7EFFA53BF180BCC459827BC8 /* CHVIpify.bundle */; };
+		E7D22571788986E6F09BB5DF1310B5F3 /* Pods-CHVIpify_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FF85258AD4B8C5AB5A29F6FC8557D2 /* Pods-CHVIpify_Example-dummy.m */; };
+		FC9FA1C66CC528EE210F9F46DBAAAD07 /* CHVIPRetriever.m in Sources */ = {isa = PBXBuildFile; fileRef = E420329F2B19CF8183A52238AEAC1ED2 /* CHVIPRetriever.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		69EA1DB0F44BDB717205F8B6 /* PBXContainerItemProxy */ = {
+		48B1CBFAE9C51AFA8F1964398E658056 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EFC90ACB9F3B3A722A192235 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3D80E719B8F53E689C60E0B4;
-			remoteInfo = "Pods-CHVIpify_Example-CHVIpify-CHVIpify";
+			remoteGlobalIDString = 39E47D05108A393CF36B280E2B44AC59;
+			remoteInfo = CHVIpify;
 		};
-		A2CDEA0615C07AAC1405ED7F /* PBXContainerItemProxy */ = {
+		6D75CCA7ED4FFB2D7EECFB9BAA1690EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EFC90ACB9F3B3A722A192235 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A893ACA9C074BAF90B899CC4;
-			remoteInfo = "Pods-CHVIpify_Tests-CHVIpify-CHVIpify";
+			remoteGlobalIDString = 06A75C21BE0DFC79C1AC9990E1CF80E8;
+			remoteInfo = "CHVIpify-CHVIpify";
 		};
-		DA5DA41F2F7F37008744A767 /* PBXContainerItemProxy */ = {
+		8EF4BE5594CA4E0CF169B3C4B6ABF8F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EFC90ACB9F3B3A722A192235 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3BBF2D31B01F727E380D4AC2;
-			remoteInfo = "Pods-CHVIpify_Tests-CHVIpify";
-		};
-		E358A1E5ADD40890FD5CDEE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EFC90ACB9F3B3A722A192235 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BFD152036BE193B696109E4E;
-			remoteInfo = "Pods-CHVIpify_Example-CHVIpify";
+			remoteGlobalIDString = 39E47D05108A393CF36B280E2B44AC59;
+			remoteInfo = CHVIpify;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0828A3791048B1D88747CDDC /* Pods-CHVIpify_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHVIpify_Tests-dummy.m"; sourceTree = "<group>"; };
-		0DC0B157BC04B867FFD7CC37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1676A4AFCD18077EB4A3F23E /* Pods-CHVIpify_Tests-CHVIpify-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-CHVIpify_Tests-CHVIpify-umbrella.h"; path = "../Pods-CHVIpify_Tests-CHVIpify/Pods-CHVIpify_Tests-CHVIpify-umbrella.h"; sourceTree = "<group>"; };
-		195504D2B12B49136812A5F7 /* CHVIpify.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHVIpify.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		21FC034FEE9C070C2A5C84A8 /* CHVIPRetriever.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHVIPRetriever.m; sourceTree = "<group>"; };
-		24670AB00DD00359790C8A25 /* CHVIpify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHVIpify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		247D556E7EABAB3BF7219BB0 /* Pods-CHVIpify_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHVIpify_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2A931FEB44B2F791FA3EF631 /* Pods-CHVIpify_Tests-CHVIpify-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHVIpify_Tests-CHVIpify-Private.xcconfig"; path = "../Pods-CHVIpify_Tests-CHVIpify/Pods-CHVIpify_Tests-CHVIpify-Private.xcconfig"; sourceTree = "<group>"; };
-		3003AAFDB2BF20D0020D3867 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-CHVIpify_Tests-CHVIpify/Info.plist"; sourceTree = "<group>"; };
-		3010FD310A05EB922527EA9A /* Pods-CHVIpify_Tests-CHVIpify-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-CHVIpify_Tests-CHVIpify-dummy.m"; path = "../Pods-CHVIpify_Tests-CHVIpify/Pods-CHVIpify_Tests-CHVIpify-dummy.m"; sourceTree = "<group>"; };
-		3344DB21D00D2E56606ACA85 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		39E7C073B9805F95C52F5A0E /* Pods-CHVIpify_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CHVIpify_Example.modulemap"; sourceTree = "<group>"; };
-		3D83BE561408E73147D87323 /* Pods-CHVIpify_Tests-CHVIpify.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHVIpify_Tests-CHVIpify.xcconfig"; path = "../Pods-CHVIpify_Tests-CHVIpify/Pods-CHVIpify_Tests-CHVIpify.xcconfig"; sourceTree = "<group>"; };
-		427CF06C1E4DF342E4A0110B /* Pods-CHVIpify_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHVIpify_Example-resources.sh"; sourceTree = "<group>"; };
-		42EA8B98DE3B32FB82019832 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4745E94C74A9F2EADB55699B /* Pods_CHVIpify_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHVIpify_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C62B30952CB9FAAA3CAB66E /* Pods-CHVIpify_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHVIpify_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4E8CE906783BF7AA5CB63FF6 /* Pods-CHVIpify_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHVIpify_Tests-environment.h"; sourceTree = "<group>"; };
-		4F286A3D287FA0B5DD9B9A3A /* Pods-CHVIpify_Example-CHVIpify-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHVIpify_Example-CHVIpify-prefix.pch"; sourceTree = "<group>"; };
-		67B0FD505240D68D50108504 /* CHVIpify.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHVIpify.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B9F71566F8FA9838FDA2527 /* Pods-CHVIpify_Tests-CHVIpify.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-CHVIpify_Tests-CHVIpify.modulemap"; path = "../Pods-CHVIpify_Tests-CHVIpify/Pods-CHVIpify_Tests-CHVIpify.modulemap"; sourceTree = "<group>"; };
-		74594A6A001E6EFF0F983BE8 /* Pods-CHVIpify_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHVIpify_Example-umbrella.h"; sourceTree = "<group>"; };
-		7CB6035AA65FFE930DD11044 /* Pods-CHVIpify_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHVIpify_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7E1ADF6CF7003FFE2B938399 /* Pods-CHVIpify_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHVIpify_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		8FF3B6F7385DAAFFB768541E /* Pods-CHVIpify_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHVIpify_Tests-umbrella.h"; sourceTree = "<group>"; };
-		92A0E09C567EBF690EB3F38C /* Pods-CHVIpify_Example-CHVIpify-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHVIpify_Example-CHVIpify-dummy.m"; sourceTree = "<group>"; };
-		9B44D82CDDDD08649678B752 /* Pods-CHVIpify_Example-CHVIpify.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CHVIpify_Example-CHVIpify.modulemap"; sourceTree = "<group>"; };
-		9BFAA7991C402A7EEDCC5BBA /* Pods-CHVIpify_Tests-CHVIpify-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-CHVIpify_Tests-CHVIpify-prefix.pch"; path = "../Pods-CHVIpify_Tests-CHVIpify/Pods-CHVIpify_Tests-CHVIpify-prefix.pch"; sourceTree = "<group>"; };
-		A00C2AF92594E4D848A98D0A /* Pods-CHVIpify_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CHVIpify_Tests.modulemap"; sourceTree = "<group>"; };
-		A18F0373CF21C99F5F4DEC0C /* Pods-CHVIpify_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHVIpify_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A87F31B8E1B59B117D312B08 /* Pods_CHVIpify_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHVIpify_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B12E5F5464A659503C8CF971 /* Pods-CHVIpify_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHVIpify_Example-environment.h"; sourceTree = "<group>"; };
-		B13223D3456702BC389C4E34 /* Pods-CHVIpify_Example-CHVIpify.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHVIpify_Example-CHVIpify.xcconfig"; sourceTree = "<group>"; };
-		B9CF93F71CBE170D9B94637D /* Pods-CHVIpify_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHVIpify_Example-dummy.m"; sourceTree = "<group>"; };
-		BD9554684F51E5AE347A9AFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C8F35CADA984D0C443A426E0 /* Pods-CHVIpify_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHVIpify_Tests-resources.sh"; sourceTree = "<group>"; };
-		CBD144015E5E890F8AAA5157 /* Pods-CHVIpify_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHVIpify_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CD7DCC74A3718657A3296FDC /* CHVIPRetriever.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHVIPRetriever.h; sourceTree = "<group>"; };
-		D9AA23407396D3524A7CCA84 /* Pods-CHVIpify_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHVIpify_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DB79702FCB35CE41C3F70448 /* CHVIpify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHVIpify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE046F4813B9E776F6CD2E2C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3D5CBC363EF7F71FBD5CAEF /* Pods-CHVIpify_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHVIpify_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EEC14DA9C8EB3F1F527CC1D1 /* Pods-CHVIpify_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHVIpify_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F3055A7B1BF0F8D2EDF0765A /* Pods-CHVIpify_Example-CHVIpify-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHVIpify_Example-CHVIpify-Private.xcconfig"; sourceTree = "<group>"; };
-		F637688B34C573D392452669 /* Pods-CHVIpify_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHVIpify_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F942B0A8CD796188F466B227 /* Pods-CHVIpify_Example-CHVIpify-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHVIpify_Example-CHVIpify-umbrella.h"; sourceTree = "<group>"; };
+		01035A4B2951AA7D62FAC00C22936AD4 /* Pods-CHVIpify_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHVIpify_Example-umbrella.h"; sourceTree = "<group>"; };
+		050F376D2094D1B86373C03DF7128634 /* Pods-CHVIpify_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHVIpify_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C85FEB740AC46F245E5BE7884521430 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E2F0FC4A2D4D9877011B731443E9045 /* Pods-CHVIpify_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHVIpify_Tests-dummy.m"; sourceTree = "<group>"; };
+		1DEA516E1A1ACDAD058764F495314FC1 /* Pods-CHVIpify_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHVIpify_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		27AA54D217217D35EB2C396A5C6A731E /* Pods-CHVIpify_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHVIpify_Tests-resources.sh"; sourceTree = "<group>"; };
+		3386E169F1BBABF859CF02CB34FCA914 /* CHVIpify.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CHVIpify.modulemap; sourceTree = "<group>"; };
+		3A04C278395508BC1275676BC86B6393 /* Pods-CHVIpify_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHVIpify_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3C951ED7AB97DD1783103ECD18FC0834 /* Pods_CHVIpify_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHVIpify_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFAE611F3CA4690EE3E78CD0DFFA30C /* Pods-CHVIpify_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHVIpify_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F98C61DF06DE509066A9BDFB7B7EC91 /* Pods-CHVIpify_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CHVIpify_Example.modulemap"; sourceTree = "<group>"; };
+		437EC07D998E50BBCD4F887988EE4318 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49FF85258AD4B8C5AB5A29F6FC8557D2 /* Pods-CHVIpify_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHVIpify_Example-dummy.m"; sourceTree = "<group>"; };
+		53B18568A847ECED00269738CFABE717 /* CHVIpify-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHVIpify-dummy.m"; sourceTree = "<group>"; };
+		5DEC9DBE76F1CF3AB0187A11AA7F4DEF /* CHVIpify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHVIpify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C7E299B907DF9EADAB70B56F000C78 /* ResourceBundle-CHVIpify-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CHVIpify-Info.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75898A195E31FC5E817C1BCAF44FA62C /* Pods_CHVIpify_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHVIpify_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80589394238FD909E26E3F1C3AAE81BB /* Pods-CHVIpify_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHVIpify_Example.release.xcconfig"; sourceTree = "<group>"; };
+		86EEE661F197FC355ACD180C998424E6 /* Pods-CHVIpify_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHVIpify_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8C2D3288B7A622C32E2CB08EA44365AA /* Pods-CHVIpify_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CHVIpify_Tests.modulemap"; sourceTree = "<group>"; };
+		8C41430610DA4CB460449B1BD1058279 /* CHVIpify-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHVIpify-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94C1DF3E7EFFA53BF180BCC459827BC8 /* CHVIpify.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHVIpify.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A253CB5FA68E744FD89CF4D650C225B1 /* CHVIpify.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHVIpify.xcconfig; sourceTree = "<group>"; };
+		CA8B756300C4FF25B87BE74BE656D2E7 /* CHVIpify-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHVIpify-prefix.pch"; sourceTree = "<group>"; };
+		D4C5264FA85F01C53F7B9201B8B48D67 /* Pods-CHVIpify_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHVIpify_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D660C6F0F7E950DA7BF0DC1119411153 /* Pods-CHVIpify_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHVIpify_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8865CCD45AF307A16FD45505EAA9B8F /* Pods-CHVIpify_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHVIpify_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DE35F90849E83955128FE8A3E49DCCEF /* CHVIPRetriever.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHVIPRetriever.h; sourceTree = "<group>"; };
+		E158882887F67D9104EA31FCDC6C89A9 /* Pods-CHVIpify_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHVIpify_Example-resources.sh"; sourceTree = "<group>"; };
+		E420329F2B19CF8183A52238AEAC1ED2 /* CHVIPRetriever.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHVIPRetriever.m; sourceTree = "<group>"; };
+		EB075D4B3DBAC3ECEF4284F320731BE0 /* Pods-CHVIpify_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHVIpify_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0C37D93CBDD6463C241C0E301E0B267 /* Pods-CHVIpify_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHVIpify_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F1C675F6F7550B021495A2EBD3E91070 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		562A3E294AC6B3CF73C4670B /* Frameworks */ = {
+		031A06593BF86438A3657D7FCA2C18C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44229041956D93A255F2695B /* Foundation.framework in Frameworks */,
+				06CC69C9B2DBFE4E4A311E75957A5AA6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5664FDAEB28D00C38BEC0252 /* Frameworks */ = {
+		2FFDB6948D1746C6DE35ED4E5D32E0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401C165955D3DF21BBEE56088687FB00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437C73A2E616E47B3C4C186ED17DE5F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66BF87BB5B1B2B88A9BF13A8 /* Frameworks */ = {
+		A387FFCE79BB9EA0189413A603694C62 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		77FE19E7114EF52CA4357C36 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C9D40159CCE88B59C873B46 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82B0638442BFB0D91CD2D869 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38346F3D47AC9253A4BE0B20 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C7341DF92AA1622E6E95178C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6751C3954863ECB9F4A05EA3 /* Foundation.framework in Frameworks */,
+				4AAF1A06EF3E8053E29FA2530B68ECD6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0653AF1F3690545AB6AEF610 /* Support Files */ = {
+		1896DF08D20DC08EFE49ABE6986E5A75 /* Pods-CHVIpify_Example */ = {
 			isa = PBXGroup;
 			children = (
-				0DC0B157BC04B867FFD7CC37 /* Info.plist */,
-				3003AAFDB2BF20D0020D3867 /* Info.plist */,
-				9B44D82CDDDD08649678B752 /* Pods-CHVIpify_Example-CHVIpify.modulemap */,
-				B13223D3456702BC389C4E34 /* Pods-CHVIpify_Example-CHVIpify.xcconfig */,
-				F3055A7B1BF0F8D2EDF0765A /* Pods-CHVIpify_Example-CHVIpify-Private.xcconfig */,
-				92A0E09C567EBF690EB3F38C /* Pods-CHVIpify_Example-CHVIpify-dummy.m */,
-				4F286A3D287FA0B5DD9B9A3A /* Pods-CHVIpify_Example-CHVIpify-prefix.pch */,
-				F942B0A8CD796188F466B227 /* Pods-CHVIpify_Example-CHVIpify-umbrella.h */,
-				6B9F71566F8FA9838FDA2527 /* Pods-CHVIpify_Tests-CHVIpify.modulemap */,
-				3D83BE561408E73147D87323 /* Pods-CHVIpify_Tests-CHVIpify.xcconfig */,
-				2A931FEB44B2F791FA3EF631 /* Pods-CHVIpify_Tests-CHVIpify-Private.xcconfig */,
-				3010FD310A05EB922527EA9A /* Pods-CHVIpify_Tests-CHVIpify-dummy.m */,
-				9BFAA7991C402A7EEDCC5BBA /* Pods-CHVIpify_Tests-CHVIpify-prefix.pch */,
-				1676A4AFCD18077EB4A3F23E /* Pods-CHVIpify_Tests-CHVIpify-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-CHVIpify_Example-CHVIpify";
-			sourceTree = "<group>";
-		};
-		16AFBA49682D86B33D70E2A5 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				CD7DCC74A3718657A3296FDC /* CHVIPRetriever.h */,
-				21FC034FEE9C070C2A5C84A8 /* CHVIPRetriever.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		26A7BD04D9E51D3618761098 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				BD9554684F51E5AE347A9AFD /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		84CF3FA0438E02E158CF19EB /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A7D1EFC039264130BD848249 /* CHVIpify */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		8C6248D444E87F9A1D60CC8D /* Pods-CHVIpify_Example */ = {
-			isa = PBXGroup;
-			children = (
-				DE046F4813B9E776F6CD2E2C /* Info.plist */,
-				39E7C073B9805F95C52F5A0E /* Pods-CHVIpify_Example.modulemap */,
-				7CB6035AA65FFE930DD11044 /* Pods-CHVIpify_Example-acknowledgements.markdown */,
-				CBD144015E5E890F8AAA5157 /* Pods-CHVIpify_Example-acknowledgements.plist */,
-				B9CF93F71CBE170D9B94637D /* Pods-CHVIpify_Example-dummy.m */,
-				B12E5F5464A659503C8CF971 /* Pods-CHVIpify_Example-environment.h */,
-				4C62B30952CB9FAAA3CAB66E /* Pods-CHVIpify_Example-frameworks.sh */,
-				427CF06C1E4DF342E4A0110B /* Pods-CHVIpify_Example-resources.sh */,
-				74594A6A001E6EFF0F983BE8 /* Pods-CHVIpify_Example-umbrella.h */,
-				F637688B34C573D392452669 /* Pods-CHVIpify_Example.debug.xcconfig */,
-				D9AA23407396D3524A7CCA84 /* Pods-CHVIpify_Example.release.xcconfig */,
+				0C85FEB740AC46F245E5BE7884521430 /* Info.plist */,
+				3F98C61DF06DE509066A9BDFB7B7EC91 /* Pods-CHVIpify_Example.modulemap */,
+				D660C6F0F7E950DA7BF0DC1119411153 /* Pods-CHVIpify_Example-acknowledgements.markdown */,
+				D8865CCD45AF307A16FD45505EAA9B8F /* Pods-CHVIpify_Example-acknowledgements.plist */,
+				49FF85258AD4B8C5AB5A29F6FC8557D2 /* Pods-CHVIpify_Example-dummy.m */,
+				F0C37D93CBDD6463C241C0E301E0B267 /* Pods-CHVIpify_Example-frameworks.sh */,
+				E158882887F67D9104EA31FCDC6C89A9 /* Pods-CHVIpify_Example-resources.sh */,
+				01035A4B2951AA7D62FAC00C22936AD4 /* Pods-CHVIpify_Example-umbrella.h */,
+				86EEE661F197FC355ACD180C998424E6 /* Pods-CHVIpify_Example.debug.xcconfig */,
+				80589394238FD909E26E3F1C3AAE81BB /* Pods-CHVIpify_Example.release.xcconfig */,
 			);
 			name = "Pods-CHVIpify_Example";
 			path = "Target Support Files/Pods-CHVIpify_Example";
 			sourceTree = "<group>";
 		};
-		A7D1EFC039264130BD848249 /* CHVIpify */ = {
+		3A55873EF3EA0A0AE37E3B3CA8FB2D80 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE1DEA46208B8288194A9D9B /* Pod */,
-				0653AF1F3690545AB6AEF610 /* Support Files */,
-			);
-			name = CHVIpify;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		ACEB08D3DF9962097D421944 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				67B0FD505240D68D50108504 /* CHVIpify.bundle */,
-				195504D2B12B49136812A5F7 /* CHVIpify.bundle */,
-				24670AB00DD00359790C8A25 /* CHVIpify.framework */,
-				DB79702FCB35CE41C3F70448 /* CHVIpify.framework */,
-				A87F31B8E1B59B117D312B08 /* Pods_CHVIpify_Example.framework */,
-				4745E94C74A9F2EADB55699B /* Pods_CHVIpify_Tests.framework */,
+				94C1DF3E7EFFA53BF180BCC459827BC8 /* CHVIpify.bundle */,
+				5DEC9DBE76F1CF3AB0187A11AA7F4DEF /* CHVIpify.framework */,
+				3C951ED7AB97DD1783103ECD18FC0834 /* Pods_CHVIpify_Example.framework */,
+				75898A195E31FC5E817C1BCAF44FA62C /* Pods_CHVIpify_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BA1F0413E27CD6ABC367E74F /* Pods-CHVIpify_Tests */ = {
+		4FB2417E0AD2B4D56B2636E2C257A4FA /* Pods-CHVIpify_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				42EA8B98DE3B32FB82019832 /* Info.plist */,
-				A00C2AF92594E4D848A98D0A /* Pods-CHVIpify_Tests.modulemap */,
-				EEC14DA9C8EB3F1F527CC1D1 /* Pods-CHVIpify_Tests-acknowledgements.markdown */,
-				E3D5CBC363EF7F71FBD5CAEF /* Pods-CHVIpify_Tests-acknowledgements.plist */,
-				0828A3791048B1D88747CDDC /* Pods-CHVIpify_Tests-dummy.m */,
-				4E8CE906783BF7AA5CB63FF6 /* Pods-CHVIpify_Tests-environment.h */,
-				7E1ADF6CF7003FFE2B938399 /* Pods-CHVIpify_Tests-frameworks.sh */,
-				C8F35CADA984D0C443A426E0 /* Pods-CHVIpify_Tests-resources.sh */,
-				8FF3B6F7385DAAFFB768541E /* Pods-CHVIpify_Tests-umbrella.h */,
-				A18F0373CF21C99F5F4DEC0C /* Pods-CHVIpify_Tests.debug.xcconfig */,
-				247D556E7EABAB3BF7219BB0 /* Pods-CHVIpify_Tests.release.xcconfig */,
+				437EC07D998E50BBCD4F887988EE4318 /* Info.plist */,
+				8C2D3288B7A622C32E2CB08EA44365AA /* Pods-CHVIpify_Tests.modulemap */,
+				3CFAE611F3CA4690EE3E78CD0DFFA30C /* Pods-CHVIpify_Tests-acknowledgements.markdown */,
+				050F376D2094D1B86373C03DF7128634 /* Pods-CHVIpify_Tests-acknowledgements.plist */,
+				0E2F0FC4A2D4D9877011B731443E9045 /* Pods-CHVIpify_Tests-dummy.m */,
+				D4C5264FA85F01C53F7B9201B8B48D67 /* Pods-CHVIpify_Tests-frameworks.sh */,
+				27AA54D217217D35EB2C396A5C6A731E /* Pods-CHVIpify_Tests-resources.sh */,
+				3A04C278395508BC1275676BC86B6393 /* Pods-CHVIpify_Tests-umbrella.h */,
+				EB075D4B3DBAC3ECEF4284F320731BE0 /* Pods-CHVIpify_Tests.debug.xcconfig */,
+				1DEA516E1A1ACDAD058764F495314FC1 /* Pods-CHVIpify_Tests.release.xcconfig */,
 			);
 			name = "Pods-CHVIpify_Tests";
 			path = "Target Support Files/Pods-CHVIpify_Tests";
 			sourceTree = "<group>";
 		};
-		E2E941837E3A64FD2A22E99C /* Frameworks */ = {
+		51B7CD0D891B4B971B35D7341E35AE8B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				26A7BD04D9E51D3618761098 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EA782164E2097FF040231809 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8C6248D444E87F9A1D60CC8D /* Pods-CHVIpify_Example */,
-				BA1F0413E27CD6ABC367E74F /* Pods-CHVIpify_Tests */,
+				1896DF08D20DC08EFE49ABE6986E5A75 /* Pods-CHVIpify_Example */,
+				4FB2417E0AD2B4D56B2636E2C257A4FA /* Pods-CHVIpify_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		EACD6105D87888C32B3DEDC0 = {
+		6C6553C511581143C3AFF1A1CA196B6E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3344DB21D00D2E56606ACA85 /* Podfile */,
-				84CF3FA0438E02E158CF19EB /* Development Pods */,
-				E2E941837E3A64FD2A22E99C /* Frameworks */,
-				ACEB08D3DF9962097D421944 /* Products */,
-				EA782164E2097FF040231809 /* Targets Support Files */,
+				3386E169F1BBABF859CF02CB34FCA914 /* CHVIpify.modulemap */,
+				A253CB5FA68E744FD89CF4D650C225B1 /* CHVIpify.xcconfig */,
+				53B18568A847ECED00269738CFABE717 /* CHVIpify-dummy.m */,
+				CA8B756300C4FF25B87BE74BE656D2E7 /* CHVIpify-prefix.pch */,
+				8C41430610DA4CB460449B1BD1058279 /* CHVIpify-umbrella.h */,
+				F1C675F6F7550B021495A2EBD3E91070 /* Info.plist */,
+				64C7E299B907DF9EADAB70B56F000C78 /* ResourceBundle-CHVIpify-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CHVIpify";
+			sourceTree = "<group>";
+		};
+		6F9227927843779735BB49760EEA8BAE /* CHVIpify */ = {
+			isa = PBXGroup;
+			children = (
+				F34C736F85A6DCDF30BBBA9F4DE92B04 /* Pod */,
+				6C6553C511581143C3AFF1A1CA196B6E /* Support Files */,
+			);
+			name = CHVIpify;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B1820660E12B4FE828808D1B1CFCE672 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3A55873EF3EA0A0AE37E3B3CA8FB2D80 /* Products */,
+				51B7CD0D891B4B971B35D7341E35AE8B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		FE1DEA46208B8288194A9D9B /* Pod */ = {
+		B1820660E12B4FE828808D1B1CFCE672 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				16AFBA49682D86B33D70E2A5 /* Classes */,
+				6F9227927843779735BB49760EEA8BAE /* CHVIpify */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F2F45877CC832AAD69A8A6CF8D0527B3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DE35F90849E83955128FE8A3E49DCCEF /* CHVIPRetriever.h */,
+				E420329F2B19CF8183A52238AEAC1ED2 /* CHVIPRetriever.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F34C736F85A6DCDF30BBBA9F4DE92B04 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F2F45877CC832AAD69A8A6CF8D0527B3 /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -304,573 +254,327 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5EF5B045951F41F6C301AFB1 /* Headers */ = {
+		47E61E49B8CE339A1609B20E909E73B3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA8EBB53613997DA4B9E3DF4 /* Pods-CHVIpify_Example-umbrella.h in Headers */,
+				0BA930B2B0F23B6E791036BF41938CFB /* Pods-CHVIpify_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A213FB0FFE060A4DF9CE79BA /* Headers */ = {
+		633CCA171ABA6EB03DF56F9F45AAB766 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9748C1D50CE07E12647A20A /* CHVIPRetriever.h in Headers */,
-				9D3824FCFBBA7ABE79414744 /* Pods-CHVIpify_Example-CHVIpify-umbrella.h in Headers */,
+				4DBE572DBD04EF8F945690545D2634A8 /* Pods-CHVIpify_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A590A259169858C40EC04CAC /* Headers */ = {
+		7D02AEBB71E9D9137D3009F0899B91DF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFE60398F09B3533D60C12E /* Pods-CHVIpify_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F43902AD65F6DA723824C41D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				08C209E96A37CC9429B85E01 /* CHVIPRetriever.h in Headers */,
-				A62407DE29C3587205675B66 /* Pods-CHVIpify_Tests-CHVIpify-umbrella.h in Headers */,
+				8898B34B182DD0556AAFED17F9872017 /* CHVIpify-umbrella.h in Headers */,
+				36990ECF6ED00122F7A40D7764045CF2 /* CHVIPRetriever.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2AFE248D3A57BAF10992CA2F /* Pods-CHVIpify_Tests */ = {
+		06A75C21BE0DFC79C1AC9990E1CF80E8 /* CHVIpify-CHVIpify */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13DBBAD53271265989CDAB46 /* Build configuration list for PBXNativeTarget "Pods-CHVIpify_Tests" */;
+			buildConfigurationList = CC91822B0EF1C478E2B70334C0F167F5 /* Build configuration list for PBXNativeTarget "CHVIpify-CHVIpify" */;
 			buildPhases = (
-				E3C447E3238C7885EFC03A1F /* Sources */,
-				562A3E294AC6B3CF73C4670B /* Frameworks */,
-				A590A259169858C40EC04CAC /* Headers */,
+				5DB9BF84C414DB66041F87D19FB28030 /* Sources */,
+				437C73A2E616E47B3C4C186ED17DE5F8 /* Frameworks */,
+				15687A72587B927A4E117670F3B57310 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D05CC3A5D81CB841AC480F26 /* PBXTargetDependency */,
+			);
+			name = "CHVIpify-CHVIpify";
+			productName = "CHVIpify-CHVIpify";
+			productReference = 94C1DF3E7EFFA53BF180BCC459827BC8 /* CHVIpify.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		1A2F6289104C0EAFE1F1AE46CF7845AE /* Pods-CHVIpify_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36A48102541C868CB273DDA047926900 /* Build configuration list for PBXNativeTarget "Pods-CHVIpify_Tests" */;
+			buildPhases = (
+				FFA1DDB244FE59E9BB4BACBB4D63B5A1 /* Sources */,
+				2FFDB6948D1746C6DE35ED4E5D32E0B0 /* Frameworks */,
+				633CCA171ABA6EB03DF56F9F45AAB766 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E2A03DADFA5DBEB1DCAF70B977C77E2 /* PBXTargetDependency */,
 			);
 			name = "Pods-CHVIpify_Tests";
 			productName = "Pods-CHVIpify_Tests";
-			productReference = 4745E94C74A9F2EADB55699B /* Pods_CHVIpify_Tests.framework */;
+			productReference = 75898A195E31FC5E817C1BCAF44FA62C /* Pods_CHVIpify_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3BBF2D31B01F727E380D4AC2 /* Pods-CHVIpify_Tests-CHVIpify */ = {
+		39E47D05108A393CF36B280E2B44AC59 /* CHVIpify */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A3DBA8D213A9D41CD6D856B /* Build configuration list for PBXNativeTarget "Pods-CHVIpify_Tests-CHVIpify" */;
+			buildConfigurationList = 7BCC24A382D473974F93CE76E18F61BB /* Build configuration list for PBXNativeTarget "CHVIpify" */;
 			buildPhases = (
-				8D94D0DF82AC9B886258227A /* Sources */,
-				77FE19E7114EF52CA4357C36 /* Frameworks */,
-				CAD93D5C1DA5A65C24EAD165 /* Resources */,
-				F43902AD65F6DA723824C41D /* Headers */,
+				B0BF3EF457A36F28A1C12AFE7E0E1576 /* Sources */,
+				A387FFCE79BB9EA0189413A603694C62 /* Frameworks */,
+				0E2AD38557FF1CB406218C8938FF9640 /* Resources */,
+				7D02AEBB71E9D9137D3009F0899B91DF /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3E9AC03502FEE0CFFB4394D0 /* PBXTargetDependency */,
+				CD084790401E6DBC353177FAC5B47098 /* PBXTargetDependency */,
 			);
-			name = "Pods-CHVIpify_Tests-CHVIpify";
-			productName = "Pods-CHVIpify_Tests-CHVIpify";
-			productReference = DB79702FCB35CE41C3F70448 /* CHVIpify.framework */;
+			name = CHVIpify;
+			productName = CHVIpify;
+			productReference = 5DEC9DBE76F1CF3AB0187A11AA7F4DEF /* CHVIpify.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3D80E719B8F53E689C60E0B4 /* Pods-CHVIpify_Example-CHVIpify-CHVIpify */ = {
+		C4D4F872CA9D99621FA74797EEBD3455 /* Pods-CHVIpify_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 757035952E5575021FAFE30F /* Build configuration list for PBXNativeTarget "Pods-CHVIpify_Example-CHVIpify-CHVIpify" */;
+			buildConfigurationList = 445832751A661BE3F03B06EB0814E8FA /* Build configuration list for PBXNativeTarget "Pods-CHVIpify_Example" */;
 			buildPhases = (
-				74F509CE6967AB3C43EBBBDD /* Sources */,
-				5664FDAEB28D00C38BEC0252 /* Frameworks */,
-				0469024AF3881FB0460C06A9 /* Resources */,
+				1BDD1A0C42DBCFA9F295DF5577326CFA /* Sources */,
+				031A06593BF86438A3657D7FCA2C18C3 /* Frameworks */,
+				47E61E49B8CE339A1609B20E909E73B3 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-CHVIpify_Example-CHVIpify-CHVIpify";
-			productName = "Pods-CHVIpify_Example-CHVIpify-CHVIpify";
-			productReference = 195504D2B12B49136812A5F7 /* CHVIpify.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		A893ACA9C074BAF90B899CC4 /* Pods-CHVIpify_Tests-CHVIpify-CHVIpify */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4A630C6DA53D22E43B21DDA9 /* Build configuration list for PBXNativeTarget "Pods-CHVIpify_Tests-CHVIpify-CHVIpify" */;
-			buildPhases = (
-				DB6ECFF6C138CB504162E8D3 /* Sources */,
-				66BF87BB5B1B2B88A9BF13A8 /* Frameworks */,
-				326FF265EFE8E26D0BA21F57 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-CHVIpify_Tests-CHVIpify-CHVIpify";
-			productName = "Pods-CHVIpify_Tests-CHVIpify-CHVIpify";
-			productReference = 67B0FD505240D68D50108504 /* CHVIpify.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		BFD152036BE193B696109E4E /* Pods-CHVIpify_Example-CHVIpify */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EED55B0F4EF98B17E243D7CB /* Build configuration list for PBXNativeTarget "Pods-CHVIpify_Example-CHVIpify" */;
-			buildPhases = (
-				5D609EA853EC2A08309D6E08 /* Sources */,
-				C7341DF92AA1622E6E95178C /* Frameworks */,
-				41882FE64140F0BC4F088B58 /* Resources */,
-				A213FB0FFE060A4DF9CE79BA /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D6C2CEBE7051929E7CAB806E /* PBXTargetDependency */,
-			);
-			name = "Pods-CHVIpify_Example-CHVIpify";
-			productName = "Pods-CHVIpify_Example-CHVIpify";
-			productReference = 24670AB00DD00359790C8A25 /* CHVIpify.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C40741B697CB0B71756E75A5 /* Pods-CHVIpify_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 606CA78FC33F09ADB3BF82B5 /* Build configuration list for PBXNativeTarget "Pods-CHVIpify_Example" */;
-			buildPhases = (
-				71C1486A9D3FC3DE89144010 /* Sources */,
-				82B0638442BFB0D91CD2D869 /* Frameworks */,
-				5EF5B045951F41F6C301AFB1 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9CD517205F685A030D355413 /* PBXTargetDependency */,
+				0ED0471CDE73B91F9403F4667D1911AD /* PBXTargetDependency */,
 			);
 			name = "Pods-CHVIpify_Example";
 			productName = "Pods-CHVIpify_Example";
-			productReference = A87F31B8E1B59B117D312B08 /* Pods_CHVIpify_Example.framework */;
+			productReference = 3C951ED7AB97DD1783103ECD18FC0834 /* Pods_CHVIpify_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EFC90ACB9F3B3A722A192235 /* Project object */ = {
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0940;
 			};
-			buildConfigurationList = 8813B56A2B4C5EA5B84E9E5D /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = EACD6105D87888C32B3DEDC0;
-			productRefGroup = ACEB08D3DF9962097D421944 /* Products */;
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3A55873EF3EA0A0AE37E3B3CA8FB2D80 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C40741B697CB0B71756E75A5 /* Pods-CHVIpify_Example */,
-				BFD152036BE193B696109E4E /* Pods-CHVIpify_Example-CHVIpify */,
-				3D80E719B8F53E689C60E0B4 /* Pods-CHVIpify_Example-CHVIpify-CHVIpify */,
-				2AFE248D3A57BAF10992CA2F /* Pods-CHVIpify_Tests */,
-				3BBF2D31B01F727E380D4AC2 /* Pods-CHVIpify_Tests-CHVIpify */,
-				A893ACA9C074BAF90B899CC4 /* Pods-CHVIpify_Tests-CHVIpify-CHVIpify */,
+				39E47D05108A393CF36B280E2B44AC59 /* CHVIpify */,
+				06A75C21BE0DFC79C1AC9990E1CF80E8 /* CHVIpify-CHVIpify */,
+				C4D4F872CA9D99621FA74797EEBD3455 /* Pods-CHVIpify_Example */,
+				1A2F6289104C0EAFE1F1AE46CF7845AE /* Pods-CHVIpify_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0469024AF3881FB0460C06A9 /* Resources */ = {
+		0E2AD38557FF1CB406218C8938FF9640 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D645720C4FC183CD1B3EF2289D217C /* CHVIpify.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		326FF265EFE8E26D0BA21F57 /* Resources */ = {
+		15687A72587B927A4E117670F3B57310 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		41882FE64140F0BC4F088B58 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				95C1222B2F38E4D444CEB92E /* CHVIpify.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CAD93D5C1DA5A65C24EAD165 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1BDA3FE0FF1B27D644C57FEA /* CHVIpify.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5D609EA853EC2A08309D6E08 /* Sources */ = {
+		1BDD1A0C42DBCFA9F295DF5577326CFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1742622FE74DA70681B7A7B /* CHVIPRetriever.m in Sources */,
-				3086B1E5CA990DBE7A8BC6FE /* Pods-CHVIpify_Example-CHVIpify-dummy.m in Sources */,
+				E7D22571788986E6F09BB5DF1310B5F3 /* Pods-CHVIpify_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71C1486A9D3FC3DE89144010 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A34C6E4BA859A6926D69E08B /* Pods-CHVIpify_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74F509CE6967AB3C43EBBBDD /* Sources */ = {
+		5DB9BF84C414DB66041F87D19FB28030 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D94D0DF82AC9B886258227A /* Sources */ = {
+		B0BF3EF457A36F28A1C12AFE7E0E1576 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDF2152E2B28003537ED3246 /* CHVIPRetriever.m in Sources */,
-				FABF526082DA4D3C79473E97 /* Pods-CHVIpify_Tests-CHVIpify-dummy.m in Sources */,
+				31DED8C17A9F56BDFDEFA345C2AF5AFD /* CHVIpify-dummy.m in Sources */,
+				FC9FA1C66CC528EE210F9F46DBAAAD07 /* CHVIPRetriever.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB6ECFF6C138CB504162E8D3 /* Sources */ = {
+		FFA1DDB244FE59E9BB4BACBB4D63B5A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3C447E3238C7885EFC03A1F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				706E7AD731884BF0B8198D81 /* Pods-CHVIpify_Tests-dummy.m in Sources */,
+				7E703CC0442F289BF68E72B448F03279 /* Pods-CHVIpify_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3E9AC03502FEE0CFFB4394D0 /* PBXTargetDependency */ = {
+		0ED0471CDE73B91F9403F4667D1911AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-CHVIpify_Tests-CHVIpify-CHVIpify";
-			target = A893ACA9C074BAF90B899CC4 /* Pods-CHVIpify_Tests-CHVIpify-CHVIpify */;
-			targetProxy = A2CDEA0615C07AAC1405ED7F /* PBXContainerItemProxy */;
+			name = CHVIpify;
+			target = 39E47D05108A393CF36B280E2B44AC59 /* CHVIpify */;
+			targetProxy = 8EF4BE5594CA4E0CF169B3C4B6ABF8F9 /* PBXContainerItemProxy */;
 		};
-		9CD517205F685A030D355413 /* PBXTargetDependency */ = {
+		9E2A03DADFA5DBEB1DCAF70B977C77E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-CHVIpify_Example-CHVIpify";
-			target = BFD152036BE193B696109E4E /* Pods-CHVIpify_Example-CHVIpify */;
-			targetProxy = E358A1E5ADD40890FD5CDEE5 /* PBXContainerItemProxy */;
+			name = CHVIpify;
+			target = 39E47D05108A393CF36B280E2B44AC59 /* CHVIpify */;
+			targetProxy = 48B1CBFAE9C51AFA8F1964398E658056 /* PBXContainerItemProxy */;
 		};
-		D05CC3A5D81CB841AC480F26 /* PBXTargetDependency */ = {
+		CD084790401E6DBC353177FAC5B47098 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-CHVIpify_Tests-CHVIpify";
-			target = 3BBF2D31B01F727E380D4AC2 /* Pods-CHVIpify_Tests-CHVIpify */;
-			targetProxy = DA5DA41F2F7F37008744A767 /* PBXContainerItemProxy */;
-		};
-		D6C2CEBE7051929E7CAB806E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-CHVIpify_Example-CHVIpify-CHVIpify";
-			target = 3D80E719B8F53E689C60E0B4 /* Pods-CHVIpify_Example-CHVIpify-CHVIpify */;
-			targetProxy = 69EA1DB0F44BDB717205F8B6 /* PBXContainerItemProxy */;
+			name = "CHVIpify-CHVIpify";
+			target = 06A75C21BE0DFC79C1AC9990E1CF80E8 /* CHVIpify-CHVIpify */;
+			targetProxy = 6D75CCA7ED4FFB2D7EECFB9BAA1690EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		132044C2F587EF439472A6E9 /* Debug */ = {
+		0B3BB01C286F9F29BFA00DDF5D231C30 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3055A7B1BF0F8D2EDF0765A /* Pods-CHVIpify_Example-CHVIpify-Private.xcconfig */;
+			baseConfigurationReference = 1DEA516E1A1ACDAD058764F495314FC1 /* Pods-CHVIpify_Tests.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-CHVIpify_Example-CHVIpify/Pods-CHVIpify_Example-CHVIpify-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-CHVIpify_Example-CHVIpify/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-CHVIpify_Example-CHVIpify/Pods-CHVIpify_Example-CHVIpify.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CHVIpify;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		13C9D2681C2C6B04C86F88CC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9AA23407396D3524A7CCA84 /* Pods-CHVIpify_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CHVIpify_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-CHVIpify_Example/Pods-CHVIpify_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_CHVIpify_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1B0764F17FA1A41801052F9B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A18F0373CF21C99F5F4DEC0C /* Pods-CHVIpify_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-CHVIpify_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CHVIpify_Tests/Pods-CHVIpify_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_CHVIpify_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1D9A00F9C7E01D984369131A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3055A7B1BF0F8D2EDF0765A /* Pods-CHVIpify_Example-CHVIpify-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-CHVIpify_Example-CHVIpify/Pods-CHVIpify_Example-CHVIpify-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-CHVIpify_Example-CHVIpify/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-CHVIpify_Example-CHVIpify/Pods-CHVIpify_Example-CHVIpify.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CHVIpify;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		3385246ED467E2D5F7454DAA /* Debug */ = {
+		2D95ADE90B4FECAA756A944C570291E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		3493FDA5F7D96A967292864B /* Debug */ = {
+		5E38254F51C4AEAE461DF6A53B448686 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A931FEB44B2F791FA3EF631 /* Pods-CHVIpify_Tests-CHVIpify-Private.xcconfig */;
+			baseConfigurationReference = 86EEE661F197FC355ACD180C998424E6 /* Pods-CHVIpify_Example.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-CHVIpify_Tests-CHVIpify/Pods-CHVIpify_Tests-CHVIpify-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-CHVIpify_Tests-CHVIpify/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-CHVIpify_Tests-CHVIpify/Pods-CHVIpify_Tests-CHVIpify.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CHVIpify;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3E291FBF44A3FFE8E39EC937 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 247D556E7EABAB3BF7219BB0 /* Pods-CHVIpify_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CHVIpify_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-CHVIpify_Tests/Pods-CHVIpify_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_CHVIpify_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6869674462B9A7822BD8EE3E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A931FEB44B2F791FA3EF631 /* Pods-CHVIpify_Tests-CHVIpify-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-CHVIpify_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = CHVIpify;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		715D20EE7C0CF6ECCDD9A1F7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3055A7B1BF0F8D2EDF0765A /* Pods-CHVIpify_Example-CHVIpify-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-CHVIpify_Example";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = CHVIpify;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		8DD57C327A79326094A67808 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A931FEB44B2F791FA3EF631 /* Pods-CHVIpify_Tests-CHVIpify-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-CHVIpify_Tests-CHVIpify/Pods-CHVIpify_Tests-CHVIpify-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-CHVIpify_Tests-CHVIpify/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-CHVIpify_Tests-CHVIpify/Pods-CHVIpify_Tests-CHVIpify.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CHVIpify;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		911BB44BCDD882DD356B710F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F637688B34C573D392452669 /* Pods-CHVIpify_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-CHVIpify_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CHVIpify_Example/Pods-CHVIpify_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_CHVIpify_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -880,133 +584,266 @@
 			};
 			name = Debug;
 		};
-		AB29A549A5EA8E3146A23095 /* Release */ = {
+		61BCF7836F2CDBBA7A0E7C1A9257AD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB075D4B3DBAC3ECEF4284F320731BE0 /* Pods-CHVIpify_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHVIpify_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHVIpify_Tests/Pods-CHVIpify_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CHVIpify_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		C989985C23652AE76D01C060 /* Debug */ = {
+		858E9BB6E2E00DC1ABDC510C754D327C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3055A7B1BF0F8D2EDF0765A /* Pods-CHVIpify_Example-CHVIpify-Private.xcconfig */;
+			baseConfigurationReference = A253CB5FA68E744FD89CF4D650C225B1 /* CHVIpify.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-CHVIpify_Example";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CHVIpify";
+				INFOPLIST_FILE = "Target Support Files/CHVIpify/ResourceBundle-CHVIpify-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = CHVIpify;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		AEA5C321F7F13C31EA62EC37E1E416E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A253CB5FA68E744FD89CF4D650C225B1 /* CHVIpify.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CHVIpify";
+				INFOPLIST_FILE = "Target Support Files/CHVIpify/ResourceBundle-CHVIpify-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CHVIpify;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		F7DBBFD504A52D131E5F45E9 /* Debug */ = {
+		CC0AEE8699B451EB1E5ECD2BA3CC4838 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A931FEB44B2F791FA3EF631 /* Pods-CHVIpify_Tests-CHVIpify-Private.xcconfig */;
+			baseConfigurationReference = A253CB5FA68E744FD89CF4D650C225B1 /* CHVIpify.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-CHVIpify_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHVIpify/CHVIpify-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHVIpify/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHVIpify/CHVIpify.modulemap";
 				PRODUCT_NAME = CHVIpify;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		F381A0CAF3A2F19C2A542F1F8D4774BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A253CB5FA68E744FD89CF4D650C225B1 /* CHVIpify.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHVIpify/CHVIpify-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHVIpify/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHVIpify/CHVIpify.modulemap";
+				PRODUCT_NAME = CHVIpify;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FED774E2EA0E8403C857C9346EA03204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80589394238FD909E26E3F1C3AAE81BB /* Pods-CHVIpify_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHVIpify_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHVIpify_Example/Pods-CHVIpify_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CHVIpify_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13DBBAD53271265989CDAB46 /* Build configuration list for PBXNativeTarget "Pods-CHVIpify_Tests" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B0764F17FA1A41801052F9B /* Debug */,
-				3E291FBF44A3FFE8E39EC937 /* Release */,
+				2D95ADE90B4FECAA756A944C570291E0 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A3DBA8D213A9D41CD6D856B /* Build configuration list for PBXNativeTarget "Pods-CHVIpify_Tests-CHVIpify" */ = {
+		36A48102541C868CB273DDA047926900 /* Build configuration list for PBXNativeTarget "Pods-CHVIpify_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3493FDA5F7D96A967292864B /* Debug */,
-				8DD57C327A79326094A67808 /* Release */,
+				61BCF7836F2CDBBA7A0E7C1A9257AD04 /* Debug */,
+				0B3BB01C286F9F29BFA00DDF5D231C30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A630C6DA53D22E43B21DDA9 /* Build configuration list for PBXNativeTarget "Pods-CHVIpify_Tests-CHVIpify-CHVIpify" */ = {
+		445832751A661BE3F03B06EB0814E8FA /* Build configuration list for PBXNativeTarget "Pods-CHVIpify_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7DBBFD504A52D131E5F45E9 /* Debug */,
-				6869674462B9A7822BD8EE3E /* Release */,
+				5E38254F51C4AEAE461DF6A53B448686 /* Debug */,
+				FED774E2EA0E8403C857C9346EA03204 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		606CA78FC33F09ADB3BF82B5 /* Build configuration list for PBXNativeTarget "Pods-CHVIpify_Example" */ = {
+		7BCC24A382D473974F93CE76E18F61BB /* Build configuration list for PBXNativeTarget "CHVIpify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				911BB44BCDD882DD356B710F /* Debug */,
-				13C9D2681C2C6B04C86F88CC /* Release */,
+				CC0AEE8699B451EB1E5ECD2BA3CC4838 /* Debug */,
+				F381A0CAF3A2F19C2A542F1F8D4774BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		757035952E5575021FAFE30F /* Build configuration list for PBXNativeTarget "Pods-CHVIpify_Example-CHVIpify-CHVIpify" */ = {
+		CC91822B0EF1C478E2B70334C0F167F5 /* Build configuration list for PBXNativeTarget "CHVIpify-CHVIpify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C989985C23652AE76D01C060 /* Debug */,
-				715D20EE7C0CF6ECCDD9A1F7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8813B56A2B4C5EA5B84E9E5D /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3385246ED467E2D5F7454DAA /* Debug */,
-				AB29A549A5EA8E3146A23095 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EED55B0F4EF98B17E243D7CB /* Build configuration list for PBXNativeTarget "Pods-CHVIpify_Example-CHVIpify" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				132044C2F587EF439472A6E9 /* Debug */,
-				1D9A00F9C7E01D984369131A /* Release */,
+				AEA5C321F7F13C31EA62EC37E1E416E0 /* Debug */,
+				858E9BB6E2E00DC1ABDC510C754D327C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EFC90ACB9F3B3A722A192235 /* Project object */;
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }

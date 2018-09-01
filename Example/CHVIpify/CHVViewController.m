@@ -7,9 +7,11 @@
 //
 
 #import "CHVViewController.h"
+#import "CHVIPRetriever.h"
 
 @interface CHVViewController ()
 
+@property (strong, nonatomic) CHVIPRetriever *retriever;
 @end
 
 @implementation CHVViewController
@@ -17,7 +19,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSLog(@"viewDidLoad");
 	// Do any additional setup after loading the view, typically from a nib.
+    self.retriever = [CHVIPRetriever new];
+    [self.retriever getIPAddress:^(NSString *ip, NSError *error) {
+        NSLog(@"IP: %@", ip);
+    }];
 }
 
 - (void)didReceiveMemoryWarning

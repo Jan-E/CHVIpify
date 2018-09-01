@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'CHVIpify_Example', :exclusive => true do
+target 'CHVIpify_Example' do
   pod "CHVIpify", :path => "../"
 end
 
-target 'CHVIpify_Tests', :exclusive => true do
+target 'CHVIpify_Tests' do
   pod "CHVIpify", :path => "../"
 
   
